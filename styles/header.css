@@ -13,8 +13,8 @@
 }
 
 header{
-    height: 100vh;
-    background: linear-gradient(360deg, rgb(0, 0, 0),rgba(42, 41, 41, 0.959));
+    height: 100%;
+    background: linear-gradient(200deg, rgb(0, 0, 0),rgba(42, 41, 41, 0.959));
 }
 .nav-container{
     width: 75%;
@@ -26,8 +26,9 @@ header{
 }
 .nav-container .nav-title{
     color: #E6533C;
-    font-size: 22px;
+    font-size: 25px;
     font-style: italic;
+    font-weight: 900;
 } 
 .nav-icon{
     border: 1px solid rgba(136, 133, 133, 0.486);
@@ -51,4 +52,124 @@ header{
     font-size: 22px;
     color: white;
     display: none;
+}
+
+.header-banner-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px
+}
+
+.banner-desc{
+    /* border: 1px solid red; */
+    color: white;
+    width: 60%;
+}
+.banner-desc h1{
+    font-size: 85px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+.miami{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 30px;
+}
+.banner-desc p{
+    font-size: 17px;
+    color: #ffffff9c;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 0.8rem 3.1rem;
+    border-radius: 30px;
+    border: none;
+}
+#btn1{
+    background-color: #E6533C;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+#btn2{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+}
+.banner-image{
+    /* border: 1px solid red; */
+    text-align: center;
+    position: relative;
+}
+.banner-image img{
+    width: 100%;
+}
+
+.card1{
+    width: 47%;
+    /* height: 100%; */
+    background-color: rgba(75, 75, 75, 0.688);
+    position: absolute;
+    top: 25%;
+    right: -16%;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.127);
+}
+.card1 h1{
+    text-align: left;
+    font-size: 35px;
+}
+.card1 p{
+    color: #ffffff9c;
+    font-size: 13px;
+    text-align: left;
+}
+.card2{
+    width: 50%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    bottom: 10%;
+    /* right: 30%; */
+    left: -22%;
+    background-color: rgba(75, 75, 75, 0.688);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.127);
+}
+.card2 .circle{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.play{
+    display: none;
+}
+.card2 .card2-desc{
+    color: white;
+}
+.card2-desc h1{
+    text-align: left;
+}
+.card2-desc p{
+    color: #ffffff9c;
+    font-size: 15px;
+    padding-top: 5px;
 }
