@@ -45,6 +45,19 @@
     .play{
         display: inline;
     }
+    .section-header{
+        width: 85%;
+        /* margin-top: 20px; */
+        padding-top: 30px;
+    }
+    .section-header h1{
+        font-size: 30px;
+    }
+    .habit-container{
+        width: 65%;
+        flex-direction: column;
+        gap: 50px;
+    }
 }
 
 
@@ -100,6 +113,14 @@
     .play{
         display: inline;
     }
+    .section-header{
+        width: 85%;
+    }
+    .habit-container{
+        width: 65%;
+        flex-direction: column;
+        gap: 50px;
+    }
 }
 
 
@@ -118,5 +139,10 @@
     }
     .banner-desc{
         width: 100%;
+    }
+    .habit-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 50px;
     }
 }
