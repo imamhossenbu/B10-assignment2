@@ -1,5 +1,6 @@
 main{
     background-color: rgb(0, 0, 0);
+    padding-bottom: 100px;
 }
 .section-header{
     width: 50%;
@@ -25,6 +26,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 .habit{
     color: white;
@@ -41,4 +43,44 @@ main{
 }
 .habit p{
     font-size: 14px;
+}
+
+.run-container{
+    width: 75%;
+    margin: 0 auto;
+    /* height: 300px; */
+    /* border: 1px solid red; */
+    background-color: #ffffff34;
+    /* margin-bottom: 100px; */
+    border-radius: 10px;
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+}
+.run-desc{
+    width: 60%;
+    color: white;
+    padding-left: 20px;
+}
+.run-desc h1{
+    font-size: 55px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.run-desc p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.run-desc button{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-weight: 600;
+}
+.run-image{
+    width: 60%;  
+}
+.run-image img{
+    width: 100%;
+    border-radius: 10px;
 }
