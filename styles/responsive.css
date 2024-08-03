@@ -78,6 +78,43 @@
         width: 100%;
         height: 100%;
     }
+    .training-container{
+        width: 85%;
+    }
+    .training-desc{
+        width: 100%;
+    }
+    .training-desc p{
+        width: 100%;
+    }
+    .image{
+        grid-template-columns: repeat(10,1fr);
+    }
+    .image1{
+        grid-column: span 5;
+    }
+    .image2{
+        grid-column: span 5;
+        padding-top: 20px;
+        background-position: right 50%;
+    }
+    .image3{
+        display: none;
+    }
+    .image4{
+        grid-column: span 4;
+        align-items: flex-end;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background-position: center;
+    }
+    .image5{
+        grid-column: span 6;
+        padding-right: 20px;
+    }
+    .image6{
+        display: none;
+    }
 }
 
 
