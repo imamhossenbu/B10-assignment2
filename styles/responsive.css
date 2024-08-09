@@ -96,7 +96,7 @@
     .image2{
         grid-column: span 5;
         padding-top: 20px;
-        background-position: right 50%;
+        background-position: right; 
     }
     .image3{
         display: none;
@@ -114,6 +114,32 @@
     }
     .image6{
         display: none;
+    }
+    .bmi-title{
+        width: 100%;
+    }
+    .bmi{
+        flex-direction: column;
+        width: 85%;
+        height: 100%;
+    }
+    .bmi-chart{
+        width: 100%;
+    }
+    input[type="text"]{
+        padding: 15px 0px 15px 10px;
+        width: 47%;
+    }
+    #sex{
+        padding: 15px 0px 15px 10px;
+        width: 47%;
+    }
+    #factor{
+        padding: 15px 0px 15px 10px;
+        width: 96%;
+    }
+    .bmi-calculate button{
+        padding: 20px 80px;
     }
 }
 
@@ -198,6 +224,36 @@
         width: 100%;
         height: 100%;
     }
+    .training-container{
+        width: 85%;
+    }
+    .training-container p{
+        width: 90%;
+    }
+    .bmi-title{
+        width: 90%;
+    }
+    .bmi{
+        width: 85%;
+        gap: 70px;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .bmi-chart{
+        width: 100%;
+    }
+    input[type="text"]{
+        padding: 15px 0px 15px 10px;
+        width: 47%;
+    }
+    #sex{
+        padding: 15px 0px 15px 10px;
+        width: 47%;
+    }
+    #factor{
+        padding: 15px 5px 15px 10px;
+        width: 98%;
+    }
 }
 
 
@@ -236,5 +292,26 @@
     .run-image{
         width: 70%;
         height: 100%;
+    }
+    .bmi{
+        width: 85%;
+        gap: 70px;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .bmi-chart{
+        width: 100%;
+    }
+    input[type="text"]{
+        padding: 15px 0px 15px 10px;
+        width: 47%;
+    }
+    #sex{
+        padding: 15px 0px 15px 10px;
+        width: 47%;
+    }
+    #factor{
+        padding: 15px 5px 15px 10px;
+        width: 96%;
     }
 }
