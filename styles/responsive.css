@@ -116,12 +116,17 @@
         display: none;
     }
     .bmi-title{
+        width: 80%;
+        padding-top: 30px;
+    }
+    .bmi-title p{
         width: 100%;
     }
     .bmi{
         flex-direction: column;
         width: 85%;
         height: 100%;
+        padding-bottom: 30px;
     }
     .bmi-chart{
         width: 100%;
@@ -140,6 +145,24 @@
     }
     .bmi-calculate button{
         padding: 20px 80px;
+    }
+    .trainer-image-container{
+        width: 85%;
+    }
+    .trainer-title{
+        width: 85%;
+    }
+    .trainer-image{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        height: 100%;
+        /* padding-bottom: 20px; */
+    }
+    .trainer p{
+        padding-bottom: 20px;
+    }
+    .trainer1{
+        display: none;
     }
 }
 
@@ -227,8 +250,11 @@
     .training-container{
         width: 85%;
     }
-    .training-container p{
-        width: 90%;
+    .training-desc{
+        width: 100%;
+    }
+    .training-desc p{
+        width: 100%;
     }
     .bmi-title{
         width: 90%;
@@ -293,9 +319,18 @@
         width: 70%;
         height: 100%;
     }
+    .training-container{
+        width: 85%;
+    }
+    .training-desc{
+        width: 100%;
+    }
+    .training-desc p{
+        width: 100%;
+    }
     .bmi{
         width: 85%;
-        gap: 70px;
+        gap: 0px;
         height: 100%;
         padding-bottom: 40px;
     }

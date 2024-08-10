@@ -179,6 +179,7 @@ main{
     font-weight: 500;
     padding-right: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .image5{
     background-image: linear-gradient(to right,rgba(66, 255, 0, 0.3) 0%,rgba(66, 255, 0, 0.3)100%),url('../images/exercise5.jpg');
@@ -213,21 +214,27 @@ main{
     padding-bottom: 20px;
 }
 .bmi-title{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 80px;
+    /* margin-left: 2000px; */
 }
 .bmi-title h1{
     font-size: 45px;
     font-weight: 800;
     padding-bottom: 20px;
+    color: white;
+    padding-top: 20px;
+    /* margin-left: 150px; */
 }
 .bmi-title p{
     font-size: 14px;
+    width: 70%;
 }
 .bmi-container{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.815);
+    padding-bottom: 50px;
 }
 .bmi{
     width: 75%;
@@ -238,6 +245,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 100px;
+    /* padding-bottom: 80px; */
 }
 .bmi-chart{
     width: 50%;
@@ -317,4 +325,99 @@ option:hover:before{
     color: white;
     font-size: 16px;
     font-weight: 700;
+}
+.trainer-container{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    /* padding-top: 500px; */
+}
+.trainer-title{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.trainer-title h1{
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.trainer-title p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.trainer-image-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trainer-image{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 600px;
+    gap: 15px;
+    padding: 15px;
+    background-color: #ffffff34;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    margin-bottom: 80px;
+}
+.trainer h1{
+    font-size: 18px;
+    padding-top: 75%;
+}
+.trainer h1,p{
+    padding-left: 15px;
+    /* padding-top: 100px; */
+}
+.trainer1{
+    background-image: url("../images/trainer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.trainer2{
+    background-image: url('../images/trainer2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.trainer3{
+    background-image: url('../images/trainer3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.trainer4{
+    background-image: url('../images/trainer4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.trainer5{
+    background-image: url('../images/trainer5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.trainer6{
+    background-image: url('../images/trainer6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
