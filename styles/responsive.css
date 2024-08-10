@@ -164,6 +164,20 @@
     .trainer1{
         display: none;
     }
+    .footer-container{
+        width: 85%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .fitness{
+        width: 100%;
+    }
+    .get1{
+        width: 100%;
+    }
+    .get2{
+        width: 100%;
+    }
 }
 
 
@@ -280,7 +294,38 @@
         padding: 15px 5px 15px 10px;
         width: 98%;
     }
+    .trainer-image-container{
+        width: 85%;
+    }
+    .trainer-title{
+        width: 85%;
+    }
+    .trainer-image{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        height: 100%;
+        /* padding-bottom: 20px; */
+    }
+    .trainer p{
+        padding-bottom: 20px;
+    }
+    .footer-container{
+        width: 85%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .fitness{
+        width: 100%;
+    }
+    .get1{
+        width: 100%;
+    }
+    .get2{
+        width: 100%;
+    }
 }
+
+
 
 
 
@@ -348,5 +393,23 @@
     #factor{
         padding: 15px 5px 15px 10px;
         width: 96%;
+    }
+    .trainer-image-container{
+        width: 85%;
+    }
+    .trainer-title{
+        width: 85%;
+    }
+    .trainer-image{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        height: 100%;
+        /* padding-bottom: 20px; */
+    }
+    .trainer p{
+        padding-bottom: 20px;
+    }
+    .footer-container{
+        width: 85%;
     }
 }

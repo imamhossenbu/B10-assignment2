@@ -1,0 +1,50 @@
+footer{
+    /* height: 100; */
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.863);
+    padding-top: 50px;
+    /* padding-bottom: 70px; */
+}
+.footer-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.138);
+    padding-bottom: 80px;
+}
+footer>p{
+    text-align: center;
+    padding: 30px 0;
+}
+.fitness{
+    width: 40%;
+}
+.fitness h1{
+    color: rgb(230, 83, 60);
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+}
+.fitness p{
+    padding: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.get1 h1,.get2 h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.get1 ul>li,.get2 ul>li{
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.get1 ul>li>a,.get2 ul>li>a{
+    text-decoration: none;
+    color: rgba(162, 160, 160, 0.811);
+    
+}
