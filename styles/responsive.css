@@ -115,6 +115,15 @@
     .image6{
         display: none;
     }
+    .pricing-container{
+        width: 85%;
+    }
+    .pricing{
+        flex-direction: column;
+    }
+    .btn button{
+        width: 50%;
+    }
     .bmi-title{
         width: 80%;
         padding-top: 30px;
@@ -162,7 +171,7 @@
         padding-bottom: 20px;
     }
     .trainer1{
-        display: none;
+        /* display: none; */
     }
     .footer-container{
         width: 85%;
@@ -323,6 +332,18 @@
     .get2{
         width: 100%;
     }
+    .pricing-container{
+        width: 85%;
+    }
+    .pricing{
+        flex-direction: column;
+    }
+    .pricing-title{
+        width: 45%;
+    }
+    .btn button{
+        width: 30%;
+    }
 }
 
 
@@ -411,5 +432,17 @@
     }
     .footer-container{
         width: 85%;
+    }
+    .pricing-container{
+        width: 85%;
+    }
+    .pricing{
+        flex-direction: column;
+    }
+    .pricing-title{
+        width: 45%;
+    }
+    .btn button{
+        width: 30%;
     }
 }
