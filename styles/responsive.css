@@ -37,10 +37,14 @@
     .circle{
         color: white;
         font-size: 18px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        /* text-align: center; */
+        position: relative;
+    }
+    .circle .fa-solid{
+        color: white;
+        /* text-align: center; */
+        position: absolute;
+        left: 10px;
     }
     .play{
         display: inline;
