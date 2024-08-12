@@ -5,7 +5,7 @@
     .nav-icon{
         display: none;
     }
-    .humburger{
+    .humburger .fa-solid{
         display: inline;
     }
     .header-banner-container{
@@ -174,8 +174,11 @@
     .trainer p{
         padding-bottom: 20px;
     }
-    .trainer1{
-        /* display: none; */
+    .trainer2 h1{
+        width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .footer-container{
         width: 85%;

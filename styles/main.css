@@ -257,6 +257,7 @@ main{
 }
 .pricing p{
     color: rgba(255, 255, 255, 0.658);
+    /* padding-bottom: 10px; */
 }
 .pricing img{
     width: 80%;

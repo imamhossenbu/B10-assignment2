@@ -51,7 +51,7 @@ header{
     padding-right: 50px;
     /* padding: 10px 40px 10px 0px; */
 }
-.humburger{
+.humburger .fa-solid{
     font-size: 22px;
     color: white;
     display: none;
