@@ -5,9 +5,14 @@
     .nav-icon{
         display: none;
     }
-    .humburger .fa-solid{
+    .humburger{
         display: inline;
+        font-size: 22px;
     }
+    .humburger .fa-solid{
+        color: white;
+    }
+
     .header-banner-container{
         flex-direction: column;
         width: 85%;
