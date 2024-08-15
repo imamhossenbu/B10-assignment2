@@ -160,17 +160,22 @@
     .bmi-chart{
         width: 100%;
     }
-    input[type="text"]{
-        padding: 15px 0px 15px 10px;
-        width: 47%;
+    .bmi-calculate{
+        width: 100%;
+    }
+    .bmi-display{
+        width: 100%;
+        margin: 0 auto;
+        gap: 10px;
+    }
+    input[type='text']{
+        width: 100%;
     }
     #sex{
-        padding: 15px 0px 15px 10px;
-        width: 47%;
+        width: 100%;
     }
     #factor{
-        padding: 15px 0px 15px 10px;
-        width: 96%;
+        width: 100%;
     }
     .bmi-calculate button{
         padding: 20px 80px;
@@ -326,17 +331,11 @@
     .bmi-chart{
         width: 100%;
     }
-    input[type="text"]{
-        padding: 15px 0px 15px 10px;
-        width: 47%;
+    .bmi-display{
+        width: 100%;
     }
-    #sex{
-        padding: 15px 0px 15px 10px;
-        width: 47%;
-    }
-    #factor{
-        padding: 15px 5px 15px 10px;
-        width: 98%;
+    input[type='text']{
+        width: 100%;
     }
     .trainer-image-container{
         width: 85%;
@@ -448,17 +447,11 @@
     .bmi-chart{
         width: 100%;
     }
-    input[type="text"]{
-        padding: 15px 0px 15px 10px;
-        width: 47%;
+    .bmi-display{
+        width: 100%;
     }
-    #sex{
-        padding: 15px 0px 15px 10px;
-        width: 47%;
-    }
-    #factor{
-        padding: 15px 5px 15px 10px;
-        width: 96%;
+    input[type='text']{
+        width: 100%;
     }
     .trainer-image-container{
         width: 85%;

@@ -246,18 +246,25 @@
             <div class="bmi-calculate">
                 <h1>Calculate your BMI</h1>
                 <p> Quickly determine your Body Mass Index (BMI) with our easy-to-use calculator. A helpful tool for understanding your weight in relation to your height. </p>
+               <div class="bmi-display">
                 <input type="text" placeholder="Height/cm">
                 <input type="text" placeholder="Weight/kg">
                 <input type="text" placeholder="Age">
-                <select id="sex">
+               <div id="sex">
+                <select style="-webkit-appearance: none;">
                     <option value="" selected >Sex</option>
                     <option value="">Male</option>
                     <option value="">Female</option>
                 </select>
-                <br>
-               <select id="factor">
-                <option value="">Select an activity factor</option>
-               </select>
+                <i class="fa-solid fa-chevron-down"></i>
+               </div>
+               <div id="factor">
+                <select style="-webkit-appearance:none;">
+                    <option value="">Select an activity factor</option>
+                   </select>
+                   <i class="fa-solid fa-chevron-down"></i>
+               </div>
+               </div>
                <button>Calculate</button>
             </div>
         </div>
