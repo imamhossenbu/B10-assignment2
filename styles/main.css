@@ -43,6 +43,7 @@ main{
 }
 .habit p{
     font-size: 14px;
+    /* padding-left: 0px; */
 }
 
 .run-container{
@@ -70,6 +71,7 @@ main{
 .run-desc p{
     font-size: 14px;
     font-weight: 300;
+    padding-left: 0px;
     padding-bottom: 20px;
 }
 .run-desc button{
@@ -94,7 +96,7 @@ main{
     font-size: 50px;
 }
 .training-desc p{
-    width: 60%;
+    width: 70%;
     font-size: 13px;
     padding-top: 15px;
     line-height: 20px;
@@ -307,7 +309,7 @@ main{
     padding-bottom: 100px;
 }
 .fa-solid{
-    color: rgb(0, 255, 98);
+    color: #e95003;
     padding-right: 15px;
     padding-top: 10px;
 }
@@ -371,6 +373,7 @@ main{
 .bmi-title p{
     font-size: 14px;
     width: 70%;
+    padding-left: 0px;
 }
 .bmi-container{
     width: 100%;
@@ -422,6 +425,7 @@ td{
 }
 .bmi-calculate p{
     font-size: 13px;
+    padding-left: 0px;
     padding-bottom: 25px;
 }
 input[type='text']{
